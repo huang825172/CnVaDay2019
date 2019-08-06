@@ -47,6 +47,10 @@
         <h2>林舒仪，我们已经在一起了</h2>
         <div class="timer">
             <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
+            </br></br>
+            </br>不管命运如何变化
+            </br>我都属于小可爱哦
+            </br>———— 生效自 <b id="n">
         </div>
     </div>
 
@@ -71,6 +75,7 @@
             document.getElementById('h').innerHTML = h;
             document.getElementById('m').innerHTML = m;
             document.getElementById('s').innerHTML = s;
+            document.getElementById('n').innerHTML = new Date();
         }
         timer();
         setInterval(timer, 1000);
